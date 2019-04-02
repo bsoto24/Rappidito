@@ -1,0 +1,66 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">?themePrimaryColor</item>
+        <item name="colorPrimaryDark">?themePrimaryColorDark</item>
+        <item name="colorAccent">?themeAccentColor</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textColor">?themeTextColor</item>
+    </style>
+
+    <style name="AppTheme.LightTheme">
+        <item name="themePrimaryColor">@color/orange</item>
+        <item name="themePrimaryColorDark">@color/orangeDark</item>
+        <item name="themeAccentColor">@color/green</item>
+        <item name="themeAccentColorDark">@color/greenDark</item>
+        <item name="themeBackgroundColor">@color/white</item>
+        <item name="themeTextColor">@color/grayDark</item>
+        <item name="themeHintColor">@color/grayLight</item>
+        <item name="themeTextColorOnPrimary">@color/white</item>
+        <item name="themeTextColorOnAccent">@color/white</item>
+        <item name="themeItemColorSelected">@color/green</item>
+        <item name="themeItemColorNotSelected">@color/grayLight</item>
+    </style>
+
+    <style name="MyThemeNoBar" parent="AppTheme.LightTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="ButtonPrimary" parent="AppTheme">
+        <item name="colorButtonNormal">?themePrimaryColor</item>
+        <item name="colorControlHighlight">?themePrimaryColorDark</item>
+        <item name="android:textColor">?themeTextColorOnPrimary</item>
+    </style>
+
+    <style name="ButtonAccent" parent="AppTheme">
+        <item name="colorButtonNormal">?themeAccentColor</item>
+        <item name="colorControlHighlight">?themeAccentColorDark</item>
+        <item name="android:textColor">?themeTextColorOnAccent</item>
+    </style>
+
+    <style name="ButtonLight" parent="AppTheme">
+        <item name="colorButtonNormal">?themeTextColorOnPrimary</item>
+        <item name="colorControlHighlight">?themeTextColorOnPrimary</item>
+        <item name="android:textColor">?themePrimaryColor</item>
+    </style>
+
+    <style name="EditTextLight" parent="AppTheme">
+        <item name="android:textColorHint">?themeHintColor</item>
+        <item name="android:textColorPrimary">?themeTextColor</item>
+        <item name="colorAccent">?themeAccentColor</item>
+    </style>
+
+    <style name="TextView" parent="AppTheme">
+        <item name="android:textColor">?themeTextColor</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>

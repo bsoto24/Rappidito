@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "628456817306",
+    "firebase_url": "https://rappi-235923.firebaseio.com",
+    "project_id": "rappi-235923",
+    "storage_bucket": "rappi-235923.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628456817306:android:077cd057858b95f9",
+        "android_client_info": {
+          "package_name": "com.openlab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "628456817306-4f6d8a7kjhrkvqrtnf56gfuh0ie1pflh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.openlab",
+            "certificate_hash": "4c6b6d37494af05fec82f428e318d34155033171"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrJIGkbBA9_f_lrjMbFtJ6tbO0iTV90Rg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "628456817306-5k6bl3rr1qj8k7hgvqo06lk4ef8s1d5f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

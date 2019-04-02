@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        tools:context=".ui.main.MainActivity">
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:src="@drawable/logotipo"
+            android:paddingTop="16dp"
+            android:scaleType="centerInside"
+            android:layout_height="80dp"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:id="@+id/imgUser"
+                android:layout_width="wrap_content"
+                android:src="@drawable/ic_person"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Jr Don Bosco 433"
+                android:gravity="center"
+                android:textColor="?colorAccent"
+                android:layout_height="wrap_content"/>
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:src="@drawable/ic_settings"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+    <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".ui.main.MainActivity">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                tools:context=".ui.SignUpActivity">
+
+            <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_margin="16dp"
+                    android:padding="16dp"
+                    app:cardCornerRadius="8dp"
+                    android:backgroundTint="?colorPrimary"
+                    android:layout_height="160dp">
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+
+                    <ImageView
+                            android:layout_width="150dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/signup"
+                            android:layout_height="0dp"/>
+
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:text="Restaurantes"
+                            android:textStyle="bold"
+                            android:layout_margin="16dp"
+                            android:gravity="end"
+                            android:textSize="16sp"
+                            android:textColor="@color/white"
+                            android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Secciones"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginStart="16dp"
+                    android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_height="100dp">
+
+                <android.support.v7.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:backgroundTint="@color/purple"
+                        android:layout_height="match_parent">
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="bottom|end"
+                            android:layout_height="match_parent">
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:textSize="12sp"
+                                android:text="Salud"
+                                android:layout_margin="8dp"
+                                android:textColor="@color/white"
+                                android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_margin="8dp"
+                        android:backgroundTint="@color/yellow"
+                        android:layout_height="match_parent">
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="bottom|end"
+                            android:layout_height="match_parent">
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:textSize="12sp"
+                                android:text="Tecnologia"
+                                android:layout_margin="8dp"
+                                android:textColor="@color/white"
+                                android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_margin="8dp"
+                        android:backgroundTint="@color/greenLight"
+                        android:layout_height="match_parent">
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="bottom|end"
+                            android:layout_height="match_parent">
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:textSize="12sp"
+                                android:text="Licores"
+                                android:layout_margin="8dp"
+                                android:textColor="@color/white"
+                                android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:backgroundTint="@color/lightBlue"
+                        android:layout_height="match_parent">
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="bottom|end"
+                            android:layout_height="match_parent">
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:textSize="12sp"
+                                android:text="Suplementos"
+                                android:layout_margin="8dp"
+                                android:textColor="@color/white"
+                                android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_height="100dp">
+
+                <android.support.v7.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:backgroundTint="@color/pinkLight"
+                        android:layout_height="match_parent">
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="bottom|end"
+                            android:layout_height="match_parent">
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:textSize="12sp"
+                                android:text="Comida"
+                                android:layout_margin="8dp"
+                                android:textColor="@color/white"
+                                android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_margin="8dp"
+                        android:backgroundTint="@color/skyblue"
+                        android:layout_height="match_parent">
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="bottom|end"
+                            android:layout_height="match_parent">
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:textSize="12sp"
+                                android:text="Hogar"
+                                android:layout_margin="8dp"
+                                android:textColor="@color/white"
+                                android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_margin="8dp"
+                        android:backgroundTint="@color/grayLight"
+                        android:layout_height="match_parent">
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="bottom|end"
+                            android:layout_height="match_parent">
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:textSize="12sp"
+                                android:text="Cafe"
+                                android:layout_margin="8dp"
+                                android:textColor="@color/white"
+                                android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:backgroundTint="@color/green"
+                        android:layout_height="match_parent">
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="bottom|end"
+                            android:layout_height="match_parent">
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:textSize="12sp"
+                                android:text="Ver mas ..."
+                                android:layout_margin="8dp"
+                                android:textColor="@color/white"
+                                android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:background="@color/grayDark"
+                    android:orientation="horizontal"
+                    android:layout_margin="16dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+
+                    <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:paddingTop="16dp"
+                            android:src="@drawable/logotipoblanco"
+                            android:layout_height="0dp"/>
+
+                    <TextView android:layout_width="match_parent"
+                              android:textColor="?colorPrimary"
+                              android:textStyle="bold"
+                              android:text="PRIME"
+                              android:textSize="12sp"
+                              android:paddingEnd="8dp"
+                              android:paddingBottom="8dp"
+                              android:gravity="end"
+                              android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:gravity="center"
+                            android:textSize="12sp"
+                            android:textColor="@color/white"
+                            android:text="Envios"
+                            android:layout_height="wrap_content"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:gravity="center"
+                            android:textSize="24sp"
+                            android:textColor="?colorPrimary"
+                            android:text="Gratis"
+                            android:textStyle="bold|italic"
+                            android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_height="match_parent">
+
+                    <Button
+                            android:id="@+id/btnSignIn"
+                            style="@style/ButtonLight"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="8dp"
+                            android:background="@drawable/rouded_corner_translucent"
+                            android:text="Suscribete"
+                            android:textSize="12sp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+</LinearLayout>
